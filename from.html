@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>формы</title>
+
+</head>
+
+<body>
+    <!--Ter форма-->
+    <form action="">
+        <p>
+            <!--поля для вода пароля-->
+            login <input type="text" placeholder="Ведите логин " required>
+        </p>
+        <p>
+            password <input type="password" name="login" placeholder="Введите пароль" required>
+        </p>
+        <P>
+        <h3>ваши интересы</h3>
+
+        <p>
+            <!---->
+            <label>
+                <input type="checkbox" value="sport" checked disabled> спорт
+            </Label>
+            <input type="checkbox" value="musik"> музыкой
+            <label><input type="checkbox" value="programing"> программирование</label>
+
+            <label><input type="checkbox" value="Art"> рисование</label>
+
+        </p>
+        <p>
+        <h3>способ оплаты</h3>
+        <!--выбор одного элемента-->
+        <label> <input type="radio" name="pay" value="card">карта</label>
+        <label> <input type="radio" name="pay" value="qr">QR код</label>
+        <label> <input type="radio" name="pay" value="cash">наличными</label>
+        </p>
+
+        </p>
+        </P>
+
+        <p>
+            <input type="submit" value="Войти">
+        </p>
+
+        <h3>ваш город</h3>
+        <!--выбор из выпадоного списка-->
+        <p>
+            <select name="city">
+                <option value="moscom">москва</option>
+            </select>
+        </p>
+        <p>
+        <h3>Ведите коментврий</h3>
+        <!--поле ввода текста-->
+        <textarea name="comment" cols="10"></textarea>
+        </p>
+        <p>
+            <!---кнопка отправить-->
+            <input type="submit" value="войти">
+            <!--кнопка ичистить-->
+            <button type="reset">очистить</button>
+        </p>
+    </form>
+</body>
+
+</html>
